@@ -28,8 +28,6 @@
     static void Main(string[] args)
     {
 
-        var random = new Random();
-
         int intersectX = random.Next(0, width-1);
 
         int intersectY = random.Next(0, height-1);
