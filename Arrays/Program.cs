@@ -28,22 +28,22 @@
     static void Main(string[] args)
     {
 
-        int intersectX = random.Next(0, width-1);
+        int intersectX = random.Next(0, width);
 
-        int intersectY = random.Next(0, height-1);
-
-        GenerateIntersection(roads, intersectX, intersectY);
-
-        intersectX = random.Next(0, width-1);
-
-        intersectY = random.Next(0, height-1);
-
+        int intersectY = random.Next(0, height);
 
         GenerateIntersection(roads, intersectX, intersectY);
 
-        intersectX = random.Next(0, width-1);
+        intersectX = random.Next(0, width);
 
-        intersectY = random.Next(0, height-1);
+        intersectY = random.Next(0, height);
+
+
+        GenerateIntersection(roads, intersectX, intersectY);
+
+        intersectX = random.Next(0, width);
+
+        intersectY = random.Next(0, height);
 
 
         GenerateIntersection(roads, intersectX, intersectY);
